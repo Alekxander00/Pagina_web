@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#000a0f;
+}
+
+.name{
+    width: 100%;
+    height: auto;
+    background: #512d38;
+    transform: skewY(-10deg);
+    padding: 20px;
+}
+
+
+.name .content .p1{
+    color: #ffffff;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.name .content .p2{
+    color: #ffffff;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+}
+
+.name .img{
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(10deg);
+    overflow: hidden;
+}
+
+.name .img img{
+    width: 180px;
+    height: px;
+}
+
+.info{
+    width: 100%;
+    height: auto;
+    background: #D8E4FF;
+    margin: auto;
+    transform: skewY(-10deg);
+    padding: 20px;
+}
+
+.info .titleSecc{
+    color: #392f5a;
+    font-family: 'Source Code Pro', monospace;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px #221318 solid;
+}
+
+.info .titleInf{
+    color: #392f5a;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+
+.info .infoInf{
+    color: #392f5a;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.hobbies{
+    width: 100%;
+    height: auto;
+    background: #023C40;
+    margin: auto;
+    transform: skewY(-10deg);
+    padding: 20px;
+}
+
+.hobbies .title{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px white solid;
+}
+
+.hobbies .hobb{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
